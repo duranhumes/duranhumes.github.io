@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%"
+     viewBox="0 0 100 100"
+     preserveAspectRatio="none"
+     version="1.1">
+    <title>header_bg</title>
+    <g>
+      <polygon id="polygon" points="0,0 0,100 100,65 100,0 0,0" stroke-width="0" stroke="none" fill="#23577C"/>
+    </g>
+</svg>

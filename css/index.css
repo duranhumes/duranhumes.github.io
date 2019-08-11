@@ -1,0 +1,189 @@
+@import './reset.css';
+@import url("https://fonts.googleapis.com/css?family=Handlee|Roboto:300,400,500,700");
+body {
+  background: url("../assets/bg.png");
+  background-size: contain;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  background: url("../assets/header_bg.svg") no-repeat;
+  background-size: 100% 300px;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.main header {
+  color: #ffffff;
+  font-family: "Handlee", cursive;
+  margin-top: 25px;
+  text-align: center;
+}
+.main header .name {
+  margin: 0 auto;
+  position: relative;
+  width: 390px;
+}
+.main header .bubble {
+  background: white;
+  border-radius: 0 20px 0 20px;
+  color: #23577C;
+  left: 10px;
+  padding: 10px;
+  position: absolute;
+  top: -20px;
+}
+.main header .bubble-arrow {
+  border-bottom: 20px solid #ffffff;
+  border-left: 20px solid transparent;
+  border-right: 0px solid #ffffff;
+  display: inline-block;
+  height: 0;
+  left: 50px;
+  position: absolute;
+  top: 32px;
+  transform: rotateY(180deg);
+  width: 0;
+}
+.main header h2 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.main header h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.content {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  margin-top: 25px;
+  max-width: 1000px;
+  padding: 15px 15px 50px;
+  position: relative;
+  width: 80%;
+}
+
+.content section {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+.title {
+  color: #23577C;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 180px;
+}
+
+.description {
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.description .profile img {
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+  object-fit: contain;
+  width: 100%;
+}
+
+.description .profile .icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.description .profile .icons a {
+  float: left;
+  padding: 0 5px;
+}
+.description .profile .icons a img {
+  width: 30px;
+  height: 30px;
+}
+
+.description div {
+  display: inline-block;
+  line-height: 24px;
+}
+
+.description div p:not(:first-child) {
+  margin-top: 10px;
+  line-height: 1.3;
+}
+
+.about-me .description div {
+  margin-top: 20px;
+}
+
+.description .tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.description .tech img {
+  height: 80px;
+  padding: 10px;
+  width: 80px;
+  object-fit: contain;
+}
+
+/*
+================================================================================
+ media queries
+================================================================================
+*/
+@media only screen and (min-width: 1000px) {
+  .main {
+    background-size: 100% 500px;
+  }
+
+  .main header {
+    margin-top: 60px;
+  }
+  .main header .name {
+    width: 490px;
+  }
+  .main header h2 {
+    font-size: 60px;
+  }
+  .main header h4 {
+    font-size: 20px;
+  }
+
+  .content {
+    margin-top: 60px;
+    width: 70%;
+  }
+
+  .title {
+    font-size: 25px;
+    width: 300px;
+  }
+
+  .about-me .description {
+    display: flex;
+  }
+  .about-me .description div {
+    margin-top: 0px;
+  }
+  .about-me .description div:not(:first-child) {
+    margin-left: 36px;
+  }
+
+  .description .profile img {
+    object-fit: cover;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
