@@ -101,7 +101,15 @@ body {
 .description .profile .icons {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 10px;
+}
+.description .profile .icons .text {
+  font-family: 'Handlee', cursive;
+  font-size: 18px;
+  margin-right: 20px;
+  color: #23577C;
+  font-weight: bold;
 }
 .description .profile .icons a {
   float: left;
