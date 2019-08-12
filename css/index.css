@@ -41,7 +41,7 @@ body {
   height: 0;
   left: 50px;
   position: absolute;
-  top: 32px;
+  top: 31px;
   transform: rotateY(180deg);
   width: 0;
 }
@@ -110,6 +110,10 @@ body {
 .description .profile .icons a img {
   width: 30px;
   height: 30px;
+  transition: all 250ms ease-in-out;
+}
+.description .profile .icons a img:hover {
+  filter: brightness(150%);
 }
 
 .description div {
