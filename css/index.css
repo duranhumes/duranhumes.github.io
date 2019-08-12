@@ -87,6 +87,7 @@ body {
 .description {
   font-weight: 300;
   margin-top: 20px;
+  line-height: 24px;
 }
 
 .description .profile img {
@@ -113,12 +114,10 @@ body {
 
 .description div {
   display: inline-block;
-  line-height: 24px;
 }
 
 .description div p:not(:first-child) {
   margin-top: 10px;
-  line-height: 1.3;
 }
 
 .about-me .description div {
