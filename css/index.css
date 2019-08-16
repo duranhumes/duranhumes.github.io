@@ -1,9 +1,9 @@
 @import './reset.css';
-@import url("https://fonts.googleapis.com/css?family=Handlee|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Handlee|Rubik:300,400,500,700");
 body {
   background: url("../assets/bg.png");
   background-size: contain;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .main {
@@ -15,7 +15,7 @@ body {
 
 .main header {
   color: #ffffff;
-  font-family: "Handlee", cursive;
+  font-family: 'Handlee', cursive;
   margin-top: 25px;
   text-align: center;
 }
